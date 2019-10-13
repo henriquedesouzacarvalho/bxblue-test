@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="/" className="navbar-brand">Reclamador</a>
+        <a href="/" className="navbar-brand">Reclame aí</a>
         <button 
           className="navbar-toggler" 
           type="button" 
