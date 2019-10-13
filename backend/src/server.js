@@ -11,7 +11,7 @@ mongoose.connect("mongodb+srv://YOUR_CONNECTION_STRING",{
     useUnifiedTopology: true
 });
 
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors());
 app.use(express.json());
 app.use(routes);
-app.listen(3001);
+app.listen(process.env.PORT || 3001);

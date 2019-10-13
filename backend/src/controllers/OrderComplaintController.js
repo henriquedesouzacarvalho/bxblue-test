@@ -1,5 +1,5 @@
 const OrderComplaint = require("../models/OrderComplaint");
-const configs = require("../configs/config");
+const configs = require("../configs/Config");
 const serviceRequest = require("../services/ServicesRequest");
 
 async function getZipCodeFromIp(ip) {
